@@ -1,0 +1,1 @@
+export const rejectPercent: number = 0.15;
