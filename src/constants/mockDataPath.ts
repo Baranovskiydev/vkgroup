@@ -1,0 +1,1 @@
+export const mockDataPath: string = '../groups.json'
