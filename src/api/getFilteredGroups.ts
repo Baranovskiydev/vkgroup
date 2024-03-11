@@ -8,9 +8,9 @@ import { isError } from "../utils/isError";
 // Это должно быть на серваке и через параметры
 // мы бы доставали нужные данные, но как есть :(
 function filteredDataGroup(data: Group[], filters: Filters): Group[]{
-    const {closed, avatar_color, members_count, friends} = filters;
+    console.log(filters);
     return data.filter((elem: Group) => {
-
+        
     })
 }
 
